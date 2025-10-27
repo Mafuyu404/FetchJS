@@ -3,9 +3,9 @@ loaderVersion = "[${loader_version},)"
 license = "GNU LGPL 3.0"
 
 [[mods]]
-modId = "merchantjs"
+modId = "fetchjs"
 version = "1.0.0"
-displayName = "MerchantJS"
+displayName = "FetchJS"
 authors = "zhenshiz"
 description = ""
 logoFile = "icon.png"
@@ -13,21 +13,21 @@ logoFile = "icon.png"
 [[accessTransformers]]
 file="META-INF/accesstransformer.cfg"
 
-[[dependencies.merchantjs]]
+[[dependencies.fetchjs]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21.1.197,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.merchantjs]]
+[[dependencies.fetchjs]]
 modId = "kubejs"
 type = "required"
 versionRange = "[2101.7.2-build.277,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.merchantjs]]
+[[dependencies.fetchjs]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21,1.21.2)"
@@ -35,4 +35,4 @@ ordering = "NONE"
 side = "BOTH"
 
 [[mixins]]
-config = "merchantjs.mixins.json"
+config = "fetchjs.mixins.json"
